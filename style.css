@@ -1,0 +1,108 @@
+/* Write some CSS below */
+* {
+    margin: 0;
+}
+body {
+    font-family: overpass;
+    color: #404042;
+}
+
+h1, h2, h3 {
+    font-family: chivo;
+}
+
+a {
+    color: #1B48E2;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.banner {
+    background-image: url('images/background.jpg');
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+    line-height: 28px;
+}
+
+.btn-blue {
+    background-color: #1B48E2;
+    padding: 12px 20px;
+    margin: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-blue:hover {
+   background-color: #2921C7;
+}
+
+.container {
+  margin: auto;
+  width: 800px;
+  padding: 30px 0;
+}
+
+.card-white img{
+   width: 180px;
+   height: 150px;
+   border-radius: 8px;
+   object-fit: cover;
+}
+
+.card-white {
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0,0,0, 0.2);
+    padding: 15px;
+    width:200px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+
+@media (max-width: 800px) {
+    .cards {
+        grid-template-columns: 1fr;
+        color: green;
+    }
+
+    .card-white {
+        width: auto;
+      }
+}
+
+/* Container media queries */
+@media (min-width: 500px) {
+    .container {
+      width: 400px;
+    }
+  }
+
+
+  @media (min-width: 800px) {
+    .container {
+      width: 600px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .container {
+      width: 800px;
+    }
+  }
+
+
+.footer {
+    background-color: #404042;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
