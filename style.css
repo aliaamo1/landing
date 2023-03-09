@@ -17,6 +17,10 @@ a {
     font-weight: bolder;
 }
 
+p {
+    margin: 20px 0;
+}
+
 .banner {
     background-image: url('images/background.jpg');
     padding: 150px 0;
